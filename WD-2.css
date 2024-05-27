@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('WD-2.jpg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.container {
+    border-radius: 50%;
+    border: 10px solid #000;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.timer {
+    font-size: 3em;
+    color: #b675d0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+.buttons button {
+    background-color: #e56af8;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    border-radius: 10px; 
+    font-size: 1.2em;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.buttons button:last-child {
+    margin-right: 0;
+}
+
+.buttons button:hover {
+    background-color: #cc00ad;
+}
+
+.lap-times {
+    margin-top: 20px;
+    text-align: left;
+    color: #822482;
+}
+
+.lap-times ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lap-times li {
+    margin-bottom: 5px;
+}

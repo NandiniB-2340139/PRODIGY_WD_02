@@ -1,2 +1,2 @@
 # PRODIGY_WD_02
-PRODIGY INFO TECH TASKS
+Stopwatch Web Application
